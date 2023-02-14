@@ -22,7 +22,7 @@ import java.util.List;
 @RequestMapping("/role")
 public class RolesController {
     @Autowired
-    RoleService roleService;
+    RoleService roleService ;
 
     @GetMapping("")
     public ResponseEntity<?> getAllRole(){
